@@ -9,3 +9,7 @@ def home(request):
 def about(request):
     data="this is about"
     return render(request,'about.html',context={'data':data})
+
+def login(request):
+    data="this is login"
+    return render(request,'login.html',context={'data':data})
